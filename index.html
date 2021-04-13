@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <title>Carousel Slider</title>
+    </head>
+    <body>
+
+        <div class="menu-bar">
+            <div>
+                <a href="#"><img src="Imagens/menu-bar-logo.png" class="logo"></a>
+                <!--<p>EMPRESA</p>
+                <p>NEWS</p>
+                <p>PEDREIRA</p>
+                <p>MATERIAIS</p>
+                <p>ORIENTE MÉDIO</p>
+                <p>ORÇAMENTO/<br>SOLICITAÇÃO</p>
+                <p>LOCALIZAÇÃO</p>-->
+                <ul>
+                    <li>EMPRESA</li>
+                    <li>NEWS</li>
+                    <li>PEDREIRA</li>
+                    <li>MATERIAIS</li>
+                    <li>ORÇAMENTO/<br>SOLICITAÇÃO</li>
+                    <li>LOCALIZAÇÃO</li>
+                </ul>
+                <p><a><img src="Imagens/menu-bar-paises.png" class="paises"></a></p>
+                <p class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="Imagens/menu-bar-facebook.png"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="Imagens/menu-bar-instagram.png"></a>
+                    <a href="https://web.whatsapp.com/" target="_blank"><img src="Imagens/menu-bar-whatsapp.png"></a>
+                    <a href="https://br.linkedin.com/" target="_blank"><img src="Imagens/menu-bar-linkedin.png"></a>
+                </p>
+            </div>
+        </div>
+        
+
+        <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" data-interval="4000">
+                    <div class="overlay-image" style="background-image: url(Imagens/banner-topo1.png);"></div>
+                    <!--<div class="container">
+                        <h1>Example text</h1>
+                        <p>USUADHASU DSAU DSd sua dh HDASU HDASU HDASU HDUAS HUDH SAUDGYSA DGSAY DSAJ DSA JDAS JDAS JDSIAJ ID</p>
+                        <a href="#" class="btn btn-lg btn-primary">
+                            Sign up today
+                        </a>
+                    </div>-->
+                </div>
+
+                <div class="carousel-item " data-interval="4000">
+                    <div class="overlay-image" style="background-image: url(Imagens/amendoa1.png);"></div>
+                    <!--<div class="container">
+                        <h1>Example headline</h1>
+                        <p>USUADHASU DSAU DSd sua dh HDASU HDASU HDASU HDUAS HUDH SAUDGYSA DGSAY DSAJ DSA JDAS JDAS JDSIAJ ID</p>
+                        <a href="#" class="btn btn-lg btn-primary">
+                            Sign up today
+                        </a>
+                    </div>-->
+                </div>
+
+                <div class="carousel-item" data-interval="4000">
+                    <div class="overlay-image" style="background-image: url(Imagens/banner-topo3.png);"></div>
+                    <!--<div class="container">
+                        <h1>Example 3</h1>
+                        <p>USUADHASU DSAU DSd sua dh HDASU HDASU HDASU HDUAS HUDH SAUDGYSA DGSAY DSAJ DSA JDAS JDAS JDSIAJ ID</p>
+                        <a href="#" class="btn btn-lg btn-primary">
+                            Sign up today
+                        </a>
+                    </div>-->
+                </div>
+                
+                <div class="carousel-item" data-interval="4000">
+                    <div class="overlay-image" style="background-image: url(Imagens/banner-topo4.png);"></div>
+                    <!--<div class="container">
+                        <h1>Example 3</h1>
+                        <p>USUADHASU DSAU DSd sua dh HDASU HDASU HDASU HDUAS HUDH SAUDGYSA DGSAY DSAJ DSA JDAS JDAS JDSIAJ ID</p>
+                        <a href="#" class="btn btn-lg btn-primary">
+                            Sign up today
+                        </a>
+                    </div>-->
+                </div>
+            </div>
+            <!--<a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+<span class="sr-only">Previous</span>
+<span class="carousel-control-prev-icon" aria-hidder="true"></span>
+</a>
+<a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+<span class="sr-only">Previous</span>
+<span class="carousel-control-next-icon" aria-hidder="true"></span>
+</a>-->
+        </div>
+        
+        
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-image: url(Imagens/banner-amendoa.png);">
+                            <div>
+                                <h3>AMENDOA</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud </p>
+                            </div>
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <!--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.-->
+                        <div class="extensible-banner">
+                            <!--<div class="top-banner">
+                                <img src="Imagens/banner-amendoa.png" class="img-test" id="extensible-banner1">
+                            </div>-->
+                            <div class="extensible-page" id="extensible-page1">
+                                <div class="infos">
+                                    <h2>Naica</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                                        Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad </p>
+                                </div>
+                                <div class="images">
+                                    <div class="big-image">
+                                        <img src="Imagens/naica1.png">
+                                    </div>
+                                    <div class="small-image">
+                                        <img src="Imagens/naica-small1.png">
+                                        <img src="Imagens/naica-small1.png">
+                                        <img src="Imagens/naica-small1.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-image: url(Imagens/banner-naica.png);">
+                            <div>
+                                <h3>NAICA</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud </p>
+                            </div>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="extensible-banner">
+                            <!--<div class="top-banner">
+                                <img src="Imagens/banner-amendoa.png" class="img-test" id="extensible-banner1">
+                            </div>-->
+                            <div class="extensible-page" id="extensible-page1">
+                                <div class="infos">
+                                    <h2>Naica</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                                        Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad </p>
+                                </div>
+                                <div class="images">
+                                    <div class="big-image">
+                                        <img src="Imagens/naica1.png">
+                                    </div>
+                                    <div class="small-image">
+                                        <img src="Imagens/naica-small1.png">
+                                        <img src="Imagens/naica-small1.png">
+                                        <img src="Imagens/naica-small1.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-image: url(Imagens/banner-blizzard.png);">
+                            <div>
+                                <h3>BLIZZARD</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud </p>
+                            </div>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="extensible-banner">
+                            <!--<div class="top-banner">
+                                <img src="Imagens/banner-amendoa.png" class="img-test" id="extensible-banner1">
+                            </div>-->
+                            <div class="extensible-page" id="extensible-page1">
+                                <div class="infos">
+                                    <h2>Naica</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                                        Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad </p>
+                                </div>
+                                <div class="images">
+                                    <div class="big-image">
+                                        <img src="Imagens/naica1.png">
+                                    </div>
+                                    <div class="small-image">
+                                        <img src="Imagens/naica-small1.png">
+                                        <img src="Imagens/naica-small1.png">
+                                        <img src="Imagens/naica-small1.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators product-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner product-infos">
+
+                <div class="carousel-item active" data-interval="2000">
+                    <div class="overlay-image" style="background-image: url(Imagens/middle-carousel-image1.png);"></div>
+                    <div class="container">
+                        <h1>NAICA</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. </p>
+                    </div>
+                    <div class="vertical-banner">
+                        <img src="Imagens/vertical-quarry.png">
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-interval="1000">
+                    <div class="overlay-image" style="background-image: url(Imagens/middle-carousel-image2.png);"></div>
+                    <div class="container">
+                        <h1>TITULO 2</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. </p>
+                    </div>
+                    <div class="vertical-banner">
+                        <img src="Imagens/vertical-quarry.png">
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-interval="1000">
+                    <div class="overlay-image" style="background-image: url(Imagens/middle-carousel-image3.png);"></div>
+                    <div class="container">
+                        <h1>TITULO 3</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. </p>
+                    </div>
+                    <div class="vertical-banner">
+                        <img src="Imagens/vertical-quarry.png">
+                    </div>
+                </div>
+                
+                <div class="carousel-item" data-interval="1000">
+                    <div class="overlay-image" style="background-image: url(Imagens/middle-carousel-image4.png);"></div>
+                    <div class="container">
+                        <h1>TITULO 4</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. </p>
+                    </div>
+                    <div class="vertical-banner">
+                        <img src="Imagens/vertical-quarry.png">
+                    </div>
+                </div>
+            </div>
+            <!--<a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+<span class="sr-only">Previous</span>
+<span class="carousel-control-prev-icon" aria-hidder="true"></span>
+</a>
+<a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+<span class="sr-only">Previous</span>
+<span class="carousel-control-next-icon" aria-hidder="true"></span>
+</a>-->
+        </div>
+
+       <!-- <div class="row product">
+            <div class="col-8"> 
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div>
+                                <img src="Imagens/amendoa1.png" class="d-block w-100" alt="First slide">
+                            </div>
+                            <div>
+                                <p>TEXT PARA QUALQUER COISA 1</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <img src="Imagens/amendoa2.png" class="d-block w-100" src="..." alt="Second slide">
+                            </div>
+                            <div>
+                                <p>TEXT PARA QUALQUER COISA 2</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <img src="Imagens/amendoa3.png" class="d-block w-100" src="..." alt="Third slide">
+                            </div>
+                            <div>
+                                <p>TEXT PARA QUALQUER COISA 3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div> 
+            </div>
+            <div class="col-4">
+                <h3>Amendoa</h3>
+                <p>Especificação petrográfica: Granito Pegmatícico</p>
+
+                <p>Acabamento: polido, escovado, acetinado e levigado</p>
+
+                <p>Espessura: 2cm/3cm</p>
+
+                <p>Usos recomendados: comercial e residencial, interior e exterior, paredes, bancada, painéis, mesas, banheiros, cozidas, decoração e obras de arte</p>
+            </div>
+            <div class="row product-btn">
+                <ul>
+                    <li>BOTAO 1</li>
+                    <li>BOTAO 2</li>
+                    <li>BOTAO 3</li>
+                    <li>BOTAO 4</li>
+                    <li>BOTAO 5</li>
+                </ul>
+            </div>
+        </div>
+
+-->
+        <div class="banner-infos">
+            <a href="produtos.html"><img src="Imagens/banner-classico.png"></a>
+            <a href="produtos.html"><img src="Imagens/banner-exoticos.png"></a>
+            <a href="produtos.html"><img src="Imagens/banner-superexoticos.png"></a>
+        </div>
+
+        <div class="banner-oriente">
+            <img src="Imagens/banner-dubai.png">
+            <div>
+                <h3>DUBAI</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud </p>
+            </div>
+        </div>
+
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3775.640113746365!2d-40.7408148852347!3d-18.858663187212986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb68504d5b881e5%3A0x92899a76b024595a!2sDalvi%20Stones!5e0!3m2!1spt-BR!2sbr!4v1617939200235!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+        <footer>
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <a href="#"><img src="Imagens/footer-logo.png"></a>
+                </div>
+                <div class="footer-info">
+                    <div>
+                        <a href="#">EMPRESA</a>
+                        <a href="#">NEW</a>
+                        <a href="#">PEDREIRA</a>
+                        <a href="#">MATERIAIS</a>
+                        <a href="#">ORIENTE MÉDIO</a>
+                        <a href="#">ORÇAMENTO/SOLICITAÇÃO</a>
+                        <a href="#">LOCALIZAÇÃO</a>
+                    </div>
+                    <div>
+                        <p>Rod. ES 080 - S/N - KM 227<br>
+                            Córrego do Café - Águia Branca - ES</p>
+                        <div>
+                            <p>+55 28 3027.2727 (BR)</p>
+                            <p>+971 00 9999.9999 (AU)</p>
+                            <p>contato@dalvistones.com.br</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bot">
+                <div class="footer-bot-images">
+                    <a href="https://www.facebook.com/"  target="_blank"><img src="Imagens/facebook-icon.png"></a>
+                    <a href="https://www.instagram.com/"  target="_blank"><img src="Imagens/instagram-icon.png"></a>
+                    <a href="https://web.whatsapp.com/"  target="_blank"><img src="Imagens/whatsapp-icon.png"></a>
+                    <a href="https://br.linkedin.com/"  target="_blank"><img src="Imagens/linkedin-icon.png"></a>
+                </div>
+                <div>
+                    <p>Copyright 2021 - All Rights Reserved - Dalvi Stone - Prove Comunicação</p>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
